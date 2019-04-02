@@ -174,7 +174,7 @@
 - (UILabel*)timeLabel
 {
     if (_timeLabel == nil) {
-        _timeLabel = self;
+        return self;
     }
     return _timeLabel;
 }
